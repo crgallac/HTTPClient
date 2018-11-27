@@ -14,7 +14,10 @@ public class Main {
 		
 		HttpcConsole httpc = new HttpcConsole(); 
 
-		
+//		HTTP_RequestMessage rm = new HTTP_RequestMessage(); 
+//		HTTP_API api = new HTTP_API(); 
+//		
+//		testConnect(rm, api); 
 	}
 	
 	
@@ -23,11 +26,11 @@ public class Main {
 	
     	
     	request.method = "GET"; 
-    	request.requestTarget = "/status/418"; 
+    	request.requestTarget = "/test.txt"; 
 //    	request.requestTarget = "/get?course=networking&assignment=1";
     	request.version = "1.0"; 
-    	request.port = 80; 
-    	request.header.AddHeaderLine("HOST", "httpbin.org");
+    	request.port = 8037; 
+    	request.header.AddHeaderLine("HOST", "localhost");
     	request.isVerbose = true; 
     	
     	

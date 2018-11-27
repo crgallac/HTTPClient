@@ -16,8 +16,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/stell/Documents/Eclipse/workspace/LA1/libs/jopt-simple-4.5.jar/jopt-simple-4.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/stell/Documents/Eclipse/workspace/LA1/libs/slf4j-1.7.25/slf4j-api-1.7.25.jar"/>
-	<classpathentry kind="lib" path="C:/Users/stell/Documents/Eclipse/workspace/LA1/libs/slf4j-1.7.25/slf4j-simple-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/colin/Documents/GitHub/HTTPClient/LA1/libs/jopt-simple-4.5.jar/jopt-simple-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/colin/Documents/GitHub/HTTPClient/LA1/libs/slf4j-1.7.25/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/colin/Documents/GitHub/HTTPClient/LA1/libs/slf4j-1.7.25/slf4j-simple-1.7.25.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

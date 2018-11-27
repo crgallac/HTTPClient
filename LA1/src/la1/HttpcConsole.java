@@ -45,7 +45,7 @@ public class HttpcConsole {
         while (scanner.hasNextLine()) {
         	
         	request = new HTTP_RequestMessage(); 
-        	request.port = 80; 
+        	request.port = 8037; 
         	request.version = "1.0"; 
         	
             String line = scanner.nextLine();
@@ -232,13 +232,19 @@ public class HttpcConsole {
 				
 				request.header.AddHeaderLine("HOST", tmpStrings[0]);
 				
-				tmpInput = ""; 
-				for(int i = 1; i < tmpStrings.length; i++) {
+				tmpInput = "/"; 
+				
+				int i =1; 
+				
+				for( i = 1; i < tmpStrings.length; i++) {
 					
-					tmpInput = tmpInput.concat("/");
+					
 					tmpInput =  tmpInput.concat(tmpStrings[i]); 
+					tmpInput = tmpInput.concat("/");
 					
 				}
+				
+			
 				
 				request.requestTarget = tmpInput; 
 				
